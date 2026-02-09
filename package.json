@@ -1,0 +1,14 @@
+{
+  "name": "test-reserve-sources",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"scripts/**/*.js\"",
+    "prepare": "husky && node scripts/setup-husky.js",
+    "validate:json": "node scripts/validate-json.js"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.0.0"
+  }
+}

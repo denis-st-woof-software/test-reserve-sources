@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "path": "data/source.json",
+      "requiredFields": [
+        "id",
+        "address",
+        "market",
+        "algorithm",
+        "startBlock",
+        "endBlock",
+        "network",
+        "assetId",
+        "type"
+      ]
+    },
+    {
+      "path": "data/asset.json",
+      "requiredFields": ["id", "address", "decimals", "symbol", "network", "type"]
+    }
+  ]
+}
