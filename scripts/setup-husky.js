@@ -6,7 +6,7 @@ const huskyDir = path.join(rootDir, '.husky');
 const hookPath = path.join(huskyDir, 'pre-commit');
 
 const hookContent = `#!/usr/bin/env sh
-npm run validate:json
+yarn run validate:json
 `;
 
 fs.mkdirSync(huskyDir, { recursive: true });
