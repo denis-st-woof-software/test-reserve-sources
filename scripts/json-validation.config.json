@@ -2,21 +2,28 @@
   "files": [
     {
       "path": "data/source.json",
-      "requiredFields": [
-        "id",
-        "address",
-        "market",
-        "algorithm",
-        "startBlock",
-        "endBlock",
-        "network",
-        "assetId",
-        "type"
+      "fields": [
+        { "name": "id", "type": "number" },
+        { "name": "address", "type": "address" },
+        { "name": "market", "type": "nullableString" },
+        { "name": "algorithm", "type": "string" },
+        { "name": "startBlock", "type": "number" },
+        { "name": "endBlock", "type": "nullableNumber" },
+        { "name": "chainId", "type": "number" },
+        { "name": "assetId", "type": "number" },
+        { "name": "type", "type": "string" }
       ]
     },
     {
       "path": "data/asset.json",
-      "requiredFields": ["id", "address", "decimals", "symbol", "network", "type"]
+      "fields": [
+        { "name": "id", "type": "number" },
+        { "name": "address", "type": "address" },
+        { "name": "decimals", "type": "number" },
+        { "name": "symbol", "type": "string" },
+        { "name": "chainId", "type": "number" },
+        { "name": "type", "type": "string" }
+      ]
     }
   ]
 }

@@ -24,7 +24,7 @@ Each item defines a reserve source (market or contract) to track:
 - `algorithm`: data collection strategy identifier
 - `startBlock`: first block to start scanning
 - `endBlock`: last block to scan (nullable)
-- `network`: chain name
+- `chainId`: EVM chain ID
 - `assetId`: foreign key to `asset.json`
 - `type`: human-readable source type
 
@@ -34,7 +34,7 @@ Each item defines a tracked asset:
 - `address`: token contract address (or zero/native address)
 - `decimals`: token decimals
 - `symbol`: asset symbol
-- `network`: chain name
+- `chainId`: EVM chain ID
 - `type`: asset category
 
 ## Validation
@@ -46,6 +46,17 @@ The validation script:
 - checks that each listed file exists
 - ensures the root JSON is an array
 - verifies every item contains all required fields
+- validates field types defined in the config
+- validates that `address` values are valid EVM addresses
+
+Supported field types:
+- `string`
+- `number`
+- `boolean`
+- `address` (EVM address validated with ethers)
+- `nullableString`
+- `nullableNumber`
+- `nullableAddress`
 
 ## Git Hooks
 Husky runs the validation on `pre-commit` to prevent invalid data from being committed.

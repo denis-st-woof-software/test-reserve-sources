@@ -6,7 +6,7 @@
     "algorithm": "{timelock}",
     "startBlock": 13553257,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 1,
     "type": "Timelock"
   },
@@ -17,7 +17,7 @@
     "algorithm": "{timelock}",
     "startBlock": 14453257,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 2,
     "type": "Timelock"
   },
@@ -28,7 +28,7 @@
     "algorithm": "{timelock}",
     "startBlock": 13453257,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 3,
     "type": "Timelock"
   },
@@ -39,7 +39,7 @@
     "algorithm": "{timelock}",
     "startBlock": 12917419,
     "endBlock": 20143572,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 4,
     "type": "Timelock"
   },
@@ -50,7 +50,7 @@
     "algorithm": "{timelock}",
     "startBlock": 15111487,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 5,
     "type": "Timelock"
   },
@@ -61,7 +61,7 @@
     "algorithm": "{timelock}",
     "startBlock": 16186413,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 6,
     "type": "Timelock"
   },
@@ -72,7 +72,7 @@
     "algorithm": "{timelock}",
     "startBlock": 13330090,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Timelock"
   },
@@ -83,7 +83,7 @@
     "algorithm": "{timelock}",
     "startBlock": 16186413,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 8,
     "type": "Timelock"
   },
@@ -94,7 +94,7 @@
     "algorithm": "{timelock}",
     "startBlock": 15104466,
     "endBlock": 16200733,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 9,
     "type": "Timelock"
   },
@@ -105,7 +105,7 @@
     "algorithm": "{timelock}",
     "startBlock": 15111487,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 10,
     "type": "Timelock"
   },
@@ -116,7 +116,7 @@
     "algorithm": "{timelock}",
     "startBlock": 16186413,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 11,
     "type": "Timelock"
   },
@@ -127,7 +127,7 @@
     "algorithm": "{avantgarde_treasury_growth_proposal}",
     "startBlock": 22444855,
     "endBlock": 23099819,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Avantgarde Treasury Growth Proposal"
   },
@@ -138,7 +138,7 @@
     "algorithm": "{avantgarde_treasury_growth_proposal}",
     "startBlock": 22475559,
     "endBlock": 23128440,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Avantgarde Treasury Growth Proposal"
   },
@@ -149,7 +149,7 @@
     "algorithm": "{aera_compound_reserves}",
     "startBlock": 18215232,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 12,
     "type": "Aera Compound Reserves"
   },
@@ -160,7 +160,7 @@
     "algorithm": "{aera_compound_reserves}",
     "startBlock": 18215232,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 13,
     "type": "Aera Compound Reserves"
   },
@@ -171,7 +171,7 @@
     "algorithm": "{aera_compound_reserves}",
     "startBlock": 18215232,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 14,
     "type": "Aera Compound Reserves"
   },
@@ -182,7 +182,7 @@
     "algorithm": "{aera_compound_reserves}",
     "startBlock": 20401360,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Aera Compound Reserves"
   },
@@ -193,7 +193,7 @@
     "algorithm": "{aera_compound_reserves}",
     "startBlock": 21053276,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 8,
     "type": "Aera Compound Reserves"
   },
@@ -204,7 +204,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 7716768,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 10,
     "type": "Market V2"
   },
@@ -215,7 +215,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 9012565,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 8,
     "type": "Market V2"
   },
@@ -226,7 +226,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 7716768,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 1,
     "type": "Market V2"
   },
@@ -237,7 +237,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 7755104,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 15,
     "type": "Market V2"
   },
@@ -248,7 +248,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 7716768,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 3,
     "type": "Market V2"
   },
@@ -259,7 +259,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 10273465,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 4,
     "type": "Market V2"
   },
@@ -270,7 +270,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 8165075,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 2,
     "type": "Market V2"
   },
@@ -281,7 +281,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 7716768,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 16,
     "type": "Market V2"
   },
@@ -292,7 +292,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 7716768,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 9,
     "type": "Market V2"
   },
@@ -303,7 +303,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 10979660,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 5,
     "type": "Market V2"
   },
@@ -314,7 +314,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 11070050,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Market V2"
   },
@@ -325,7 +325,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 12065800,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 2,
     "type": "Market V2"
   },
@@ -336,7 +336,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 12480786,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 17,
     "type": "Market V2"
   },
@@ -347,7 +347,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 12480786,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 18,
     "type": "Market V2"
   },
@@ -358,7 +358,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 12961718,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 19,
     "type": "Market V2"
   },
@@ -369,7 +369,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 12974518,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 20,
     "type": "Market V2"
   },
@@ -380,7 +380,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 12961718,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 21,
     "type": "Market V2"
   },
@@ -391,7 +391,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 12961718,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 22,
     "type": "Market V2"
   },
@@ -402,7 +402,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 14162082,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 23,
     "type": "Market V2"
   },
@@ -413,7 +413,7 @@
     "algorithm": "{market_v2}",
     "startBlock": 14342848,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 6,
     "type": "Market V2"
   },
@@ -424,7 +424,7 @@
     "algorithm": "{comptroller}",
     "startBlock": 10260477,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Comptroller"
   },
@@ -435,7 +435,7 @@
     "algorithm": "{compound_community_multisig}",
     "startBlock": 19857429,
     "endBlock": 24186279,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 1,
     "type": "Compound Community Multisig"
   },
@@ -446,7 +446,7 @@
     "algorithm": "{immunefi_bug_bounty_program}",
     "startBlock": 21096268,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Immunefi Bug Bounty Program"
   },
@@ -457,7 +457,7 @@
     "algorithm": "{woof_payment_stream_contract}",
     "startBlock": 22563332,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "WOOF Payment Stream Contract"
   },
@@ -468,7 +468,7 @@
     "algorithm": "{openzeppelin_payment_stream_contract}",
     "startBlock": 22827841,
     "endBlock": 23679410,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "OpenZeppelin Payment Stream Contract"
   },
@@ -479,7 +479,7 @@
     "algorithm": "{timelock}",
     "startBlock": 70432824,
     "endBlock": null,
-    "network": "polygon",
+    "chainId": 137,
     "assetId": 24,
     "type": "Timelock"
   },
@@ -490,7 +490,7 @@
     "algorithm": "{timelock}",
     "startBlock": 68977067,
     "endBlock": null,
-    "network": "polygon",
+    "chainId": 137,
     "assetId": 25,
     "type": "Timelock"
   },
@@ -501,7 +501,7 @@
     "algorithm": "{timelock}",
     "startBlock": 68815847,
     "endBlock": null,
-    "network": "polygon",
+    "chainId": 137,
     "assetId": 26,
     "type": "Timelock"
   },
@@ -512,7 +512,7 @@
     "algorithm": "{timelock}",
     "startBlock": 68977067,
     "endBlock": null,
-    "network": "polygon",
+    "chainId": 137,
     "assetId": 27,
     "type": "Timelock"
   },
@@ -523,7 +523,7 @@
     "algorithm": "{mantle}",
     "startBlock": 72915644,
     "endBlock": null,
-    "network": "mantle",
+    "chainId": 5000,
     "assetId": 28,
     "type": "Mantle"
   },
@@ -534,7 +534,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 20666351,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -545,7 +545,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 20666351,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -556,7 +556,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 20666351,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -567,7 +567,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 20666351,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -578,7 +578,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 20666351,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -589,7 +589,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 20666351,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -600,7 +600,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 20666351,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -611,7 +611,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 20666351,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -622,7 +622,7 @@
     "algorithm": "{rewards}",
     "startBlock": 90432128,
     "endBlock": null,
-    "network": "arbitrum",
+    "chainId": 42161,
     "assetId": 29,
     "type": "Rewards"
   },
@@ -633,7 +633,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 90432128,
     "endBlock": null,
-    "network": "arbitrum",
+    "chainId": 42161,
     "assetId": 30,
     "type": "Market V3"
   },
@@ -644,7 +644,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 126545115,
     "endBlock": null,
-    "network": "arbitrum",
+    "chainId": 42161,
     "assetId": 31,
     "type": "Market V3"
   },
@@ -655,7 +655,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 226766530,
     "endBlock": null,
-    "network": "arbitrum",
+    "chainId": 42161,
     "assetId": 32,
     "type": "Market V3"
   },
@@ -666,7 +666,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 224349134,
     "endBlock": null,
-    "network": "arbitrum",
+    "chainId": 42161,
     "assetId": 33,
     "type": "Market V3"
   },
@@ -677,7 +677,7 @@
     "algorithm": "{rewards}",
     "startBlock": 2461327,
     "endBlock": null,
-    "network": "base",
+    "chainId": 8453,
     "assetId": 34,
     "type": "Rewards"
   },
@@ -688,7 +688,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 21210127,
     "endBlock": null,
-    "network": "base",
+    "chainId": 8453,
     "assetId": 35,
     "type": "Market V3"
   },
@@ -699,7 +699,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 2461327,
     "endBlock": null,
-    "network": "base",
+    "chainId": 8453,
     "assetId": 36,
     "type": "Market V3"
   },
@@ -710,7 +710,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 12008527,
     "endBlock": null,
-    "network": "base",
+    "chainId": 8453,
     "assetId": 37,
     "type": "Market V3"
   },
@@ -721,7 +721,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 26437327,
     "endBlock": null,
-    "network": "base",
+    "chainId": 8453,
     "assetId": 38,
     "type": "Market V3"
   },
@@ -732,7 +732,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 2806927,
     "endBlock": null,
-    "network": "base",
+    "chainId": 8453,
     "assetId": 39,
     "type": "Market V3"
   },
@@ -743,7 +743,7 @@
     "algorithm": "{rewards}",
     "startBlock": 15200382,
     "endBlock": null,
-    "network": "linea",
+    "chainId": 59144,
     "assetId": 40,
     "type": "Rewards"
   },
@@ -754,7 +754,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 16354018,
     "endBlock": null,
-    "network": "linea",
+    "chainId": 59144,
     "assetId": 41,
     "type": "Market V3"
   },
@@ -765,7 +765,7 @@
     "algorithm": "{rewards}",
     "startBlock": 15505647,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Rewards"
   },
@@ -776,7 +776,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 15412118,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 3,
     "type": "Market V3"
   },
@@ -787,7 +787,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 21031758,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 42,
     "type": "Market V3"
   },
@@ -798,7 +798,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 20236626,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 4,
     "type": "Market V3"
   },
@@ -809,7 +809,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 21876736,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 2,
     "type": "Market V3"
   },
@@ -820,7 +820,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 16472979,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 43,
     "type": "Market V3"
   },
@@ -831,7 +831,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 20759487,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 14,
     "type": "Market V3"
   },
@@ -842,7 +842,7 @@
     "algorithm": "{rewards}",
     "startBlock": 71446844,
     "endBlock": null,
-    "network": "mantle",
+    "chainId": 5000,
     "assetId": 44,
     "type": "Rewards"
   },
@@ -853,7 +853,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 71576444,
     "endBlock": null,
-    "network": "mantle",
+    "chainId": 5000,
     "assetId": 45,
     "type": "Market V3"
   },
@@ -864,7 +864,7 @@
     "algorithm": "{rewards}",
     "startBlock": 118770212,
     "endBlock": null,
-    "network": "optimism",
+    "chainId": 10,
     "assetId": 46,
     "type": "Rewards"
   },
@@ -875,7 +875,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 118813412,
     "endBlock": null,
-    "network": "optimism",
+    "chainId": 10,
     "assetId": 47,
     "type": "Market V3"
   },
@@ -886,7 +886,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 121664612,
     "endBlock": null,
-    "network": "optimism",
+    "chainId": 10,
     "assetId": 48,
     "type": "Market V3"
   },
@@ -897,7 +897,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 123047012,
     "endBlock": null,
-    "network": "optimism",
+    "chainId": 10,
     "assetId": 49,
     "type": "Market V3"
   },
@@ -908,7 +908,7 @@
     "algorithm": "{rewards}",
     "startBlock": 40011584,
     "endBlock": null,
-    "network": "polygon",
+    "chainId": 137,
     "assetId": 50,
     "type": "Rewards"
   },
@@ -919,7 +919,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 40011584,
     "endBlock": null,
-    "network": "polygon",
+    "chainId": 137,
     "assetId": 51,
     "type": "Market V3"
   },
@@ -930,7 +930,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 58727794,
     "endBlock": null,
-    "network": "polygon",
+    "chainId": 137,
     "assetId": 52,
     "type": "Market V3"
   },
@@ -941,7 +941,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 43726957,
     "endBlock": null,
-    "network": "ronin",
+    "chainId": 2020,
     "assetId": 54,
     "type": "Market V3"
   },
@@ -952,7 +952,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 47094828,
     "endBlock": null,
-    "network": "ronin",
+    "chainId": 2020,
     "assetId": 55,
     "type": "Market V3"
   },
@@ -963,7 +963,7 @@
     "algorithm": "{rewards}",
     "startBlock": 3401271,
     "endBlock": null,
-    "network": "scroll",
+    "chainId": 534352,
     "assetId": 56,
     "type": "Rewards"
   },
@@ -974,7 +974,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 4483283,
     "endBlock": null,
-    "network": "scroll",
+    "chainId": 534352,
     "assetId": 57,
     "type": "Market V3"
   },
@@ -985,7 +985,7 @@
     "algorithm": "{rewards}",
     "startBlock": 10557241,
     "endBlock": null,
-    "network": "unichain",
+    "chainId": 130,
     "assetId": 58,
     "type": "Rewards"
   },
@@ -996,7 +996,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 10816441,
     "endBlock": null,
-    "network": "unichain",
+    "chainId": 130,
     "assetId": 59,
     "type": "Market V3"
   },
@@ -1007,7 +1007,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 16086841,
     "endBlock": null,
-    "network": "unichain",
+    "chainId": 130,
     "assetId": 60,
     "type": "Market V3"
   },
@@ -1018,7 +1018,7 @@
     "algorithm": "{comet,comet_stats}",
     "startBlock": 23676610,
     "endBlock": null,
-    "network": "linea",
+    "chainId": 59144,
     "assetId": 64,
     "type": "Market V3"
   },
@@ -1029,7 +1029,7 @@
     "algorithm": "{eth_wallet}",
     "startBlock": 23722278,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 65,
     "type": "The SVR Fee Collector"
   },
@@ -1040,7 +1040,7 @@
     "algorithm": "{compound_community_multisig}",
     "startBlock": 24179101,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 14,
     "type": "Compound Community Multisig"
   },
@@ -1051,7 +1051,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 23914960,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -1062,7 +1062,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 23914960,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -1073,7 +1073,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 23914960,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -1084,7 +1084,7 @@
     "algorithm": "{delegate_race}",
     "startBlock": 23914960,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 7,
     "type": "Delegate Race"
   },
@@ -1095,7 +1095,7 @@
     "algorithm": "{aera_compound_reserves}",
     "startBlock": 18423606,
     "endBlock": 21303977,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 3,
     "type": "Aera Compound Reserves"
   },
@@ -1106,7 +1106,7 @@
     "algorithm": "{aera_compound_reserves}",
     "startBlock": 18216242,
     "endBlock": null,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 1,
     "type": "Aera Compound Reserves"
   },
@@ -1117,7 +1117,7 @@
     "algorithm": "{aera_compound_reserves}",
     "startBlock": 18216242,
     "endBlock": 21246747,
-    "network": "mainnet",
+    "chainId": 1,
     "assetId": 43,
     "type": "Aera Compound Reserves"
   }
