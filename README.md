@@ -22,12 +22,12 @@ The validation script:
 Husky runs the validation on `pre-commit` to prevent invalid data from being committed.
 
 ## Scripts
-- `npm run validate:json` — run validation manually
-- `npm run format` — format JS scripts
+- `yarn validate:json` — run validation manually
+- `yarn format` — format JS scripts
 
 ## Setup
 ```bash
-npm install
+yarn install
 ```
 
 This installs Husky and sets up the git hook.
