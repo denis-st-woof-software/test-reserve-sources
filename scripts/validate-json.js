@@ -156,7 +156,7 @@ function validateFilesStep(ctx) {
       continue;
     }
 
-    ctx.loadedFiles.push({ file, data, fields });
+    ctx.loadedFiles.push({ file, filePath, data, fields, changed: false });
 
     data.forEach((item, index) => {
       ctx.stats.itemsChecked++;
@@ -201,7 +201,8 @@ function normalizeStep(ctx) {
   if (ctx.errors.length > 0) return;
   if (!ctx.loadedFiles || ctx.loadedFiles.length === 0) return;
 
-  for (const { file, data, fields } of ctx.loadedFiles) {
+  for (const loaded of ctx.loadedFiles) {
+    const { file, data, fields } = loaded;
     for (let index = 0; index < data.length; index++) {
       const item = data[index];
       if (!item || typeof item !== 'object' || Array.isArray(item)) continue;
@@ -214,7 +215,11 @@ function normalizeStep(ctx) {
         if (type === 'nullableAddress' && value === null) continue;
 
         try {
-          item[name] = getAddress(value);
+          const checksummed = getAddress(value);
+          if (checksummed !== value) {
+            item[name] = checksummed;
+            loaded.changed = true;
+          }
         } catch (error) {
           const idHint = Object.prototype.hasOwnProperty.call(item, 'id') ? ` (id=${item.id})` : '';
           ctx.errors.push(`[${file}] Item #${index}${idHint} failed to normalize "${name}"`);
@@ -225,7 +230,37 @@ function normalizeStep(ctx) {
 }
 
 /**
- * Step E — Finalize: report results and exit.
+ * Step E — Persist normalized files to disk.
+ * Runs only when validation/normalization succeeded; writes only files marked
+ * as changed, using temp-file + rename for safer replacement.
+ */
+function persistNormalizedStep(ctx) {
+  if (ctx.errors.length > 0) return;
+  if (!ctx.loadedFiles || ctx.loadedFiles.length === 0) return;
+
+  for (const loaded of ctx.loadedFiles) {
+    if (!loaded.changed) continue;
+
+    const tempPath = `${loaded.filePath}.tmp`;
+    try {
+      const json = `${JSON.stringify(loaded.data, null, 2)}\n`;
+      fs.writeFileSync(tempPath, json, 'utf8');
+      fs.renameSync(tempPath, loaded.filePath);
+    } catch (error) {
+      try {
+        if (fs.existsSync(tempPath)) {
+          fs.unlinkSync(tempPath);
+        }
+      } catch (_cleanupError) {
+        // Best effort cleanup only.
+      }
+      ctx.errors.push(`[${loaded.file}] Failed to write normalized file: ${error.message}`);
+    }
+  }
+}
+
+/**
+ * Step F — Finalize: report results and exit.
  * This is the single place that decides whether to print errors or success.
  */
 function finalizeStep(ctx) {
@@ -252,6 +287,13 @@ function runPipeline(steps, ctx) {
 
 // --- Main ---
 
-const steps = [loadConfigStep, validateConfigStep, validateFilesStep, normalizeStep, finalizeStep];
+const steps = [
+  loadConfigStep,
+  validateConfigStep,
+  validateFilesStep,
+  normalizeStep,
+  persistNormalizedStep,
+  finalizeStep,
+];
 const ctx = createContext();
 runPipeline(steps, ctx);

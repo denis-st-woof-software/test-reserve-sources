@@ -41,19 +41,20 @@ Each item defines a tracked asset:
 
 The validator (`scripts/validate-json.js`) runs as a staged pipeline with a shared context. Config rules live in `scripts/json-validation.config.json`.
 
-**What it does:** loads config, validates each listed file (exists, root is array, items have required fields and correct types), normalizes address fields to checksummed EVM format, then reports results.
+**What it does:** loads config, validates each listed file (exists, root is array, items have required fields and correct types), normalizes address fields to checksummed EVM format, persists normalized JSON to disk when changes occur, then reports results.
 
 **Execution behavior:**
 - Config errors are fail-fast (script exits before file validation).
 - File/item errors are accumulated and printed once at the end.
 - Normalization runs only when validation succeeds.
+- Persistence runs only when there are no errors and only rewrites files that changed.
 
 **Supported field types:** `string`, `number`, `boolean`, `address`, `nullableString`, `nullableNumber`, `nullableAddress`.
 
-- `address` — EVM address validated with ethers; normalized to checksum format in memory.
+- `address` — EVM address validated with ethers; normalized to checksum format.
 - `nullableAddress` — same as `address`, but `null` is allowed; non-null values are checksummed.
 
-Normalization uses ethers `getAddress` and modifies in-memory data only (no files written to disk).
+Normalization uses ethers `getAddress` for `address` and `nullableAddress`, then writes updates safely via temp file + rename.
 
 **Run:** `yarn validate:json`
 

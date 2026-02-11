@@ -1013,7 +1013,7 @@
   },
   {
     "id": 95,
-    "address": "0x60f2058379716a64a7a5d29219397e79bc552194",
+    "address": "0x60F2058379716A64a7A5d29219397e79bC552194",
     "market": "WETH (v3)",
     "algorithm": "{comet,comet_stats}",
     "startBlock": 23676610,
